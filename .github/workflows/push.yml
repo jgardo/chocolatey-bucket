@@ -1,4 +1,4 @@
-name: Push-app
+name: Push-jgardo-example-app
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
       - name: Find package
         shell: bash
         run: |
-          echo "PACKAGE_NAME=$(ls app/*.nuspec)" >> $GITHUB_ENV
+          echo "PACKAGE_NAME=$(ls jgardo-example-app/*.nuspec)" >> $GITHUB_ENV
 
       - name: Pack
         shell: powershell

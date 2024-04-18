@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with JReleaser 1.11.0 at 2024-04-18T14:20:13.463323+02:00 -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- required -->
+    <id>jgardo-example-app</id>
+    <version>1.0.0</version>
+    <authors>jgardo.dev</authors>
+    <description>Example CLI</description>
+    <!-- optional -->
+    <title>jgardo-example-app</title>
+    <projectUrl>https://jgardo.dev</projectUrl>
+    <copyright>2024 jgardo.dev</copyright>
+    <licenseUrl>https://spdx.org/licenses/Apache-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>cli</tags>
+    <summary>Example CLI</summary>
+    <projectSourceUrl>https://github.com/jgardo/chocolatey-cli-example</projectSourceUrl>
+    <packageSourceUrl>https://github.com/jgardo/chocolatey-bucket</packageSourceUrl>
+    <docsUrl>https://jgardo.dev</docsUrl>
+    <bugTrackerUrl>https://github.com/jgardo/chocolatey-cli-example/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/jgardo/chocolatey-cli-example/releases/tag/1.0.0-alpha2</releaseNotes>
+    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
